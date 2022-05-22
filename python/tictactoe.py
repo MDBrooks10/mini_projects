@@ -1,4 +1,5 @@
 #TicTacToe!
+#code along project from https://www.youtube.com/watch?v=kojoQkZ8LfA
 
 def main():
     grid = [[" "," "," "],
