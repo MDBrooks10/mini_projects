@@ -4,8 +4,7 @@ def calc():
     year = 0
     interest_rate = input("What is you interest rate? - %")
     investment = input("How much do you invest? - £")
-    time_scale = input("When do you want to withdraw? - ")
-    print(range(1,int(time_scale)))
+    time_scale = input("Over how many years? - ")
     info_check = input(f"So you want to invest £{investment} over {time_scale} years with an interest rate of {interest_rate}%? Y/N - ")
     print(info_check)
     if info_check.upper() == "N":
